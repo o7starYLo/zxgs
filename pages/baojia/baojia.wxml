@@ -1,0 +1,78 @@
+<view class="head">
+<view>
+<text  class="title">我家装修该花多少钱？</text>
+</view>
+<view>
+<text class="title1">设计费：？元  材料费：？元  人工费：?</text>
+</view>
+<view class="center">
+<text class="word1">已为江苏10所城市23075业主提供报价\n精准度达到95%装修预算清算</text>
+<text class="word2"></text>
+<view class='select_box'>
+    <view class='select' >
+     <text class="area">地</text>
+     <text class="area" >区</text>
+     <!-- 省市区选择器 -->
+        <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+    <view class="picker">
+      {{region[0]}} {{region[1]}} {{region[2]}}
+    </view>
+  </picker>
+        <image class='select_img' src='../image/3.jpg'></image>  
+    </view>
+
+  <view class='select1'>
+     <text class="area">面</text>
+     <text class="area" >积</text>
+     <input class="area1"> </input>
+     <text class="area2">m²</text>
+</view>
+  <view class='select2' catchtap='selectTap'>
+     <text class="area">户</text>
+     <text class="area">型</text>
+     <input class="area3"></input>
+     <text class="area4">室</text>
+     <input class="area5"></input>
+     <text class="area6">厅</text>
+</view>
+    </view> 
+      
+      <view>
+     <button class='btn1' open-type='openSetting'>
+    <image class='btnImg' src='../image/7.jpg'></image>
+    <view>立即发送报价</view>
+ </button>
+     </view>  
+</view>
+</view>
+<view class="end">
+<view>    
+<text class="num1">01</text>
+<text class="num1">02</text>
+<text class="num1">03</text>
+</view>
+<view>
+<text class="num2">省心</text>
+<text class="num2">放心</text>
+<text class="num2">便捷</text>
+</view>
+<view>
+<text class="num3">一房一价</text>
+<text class="num3">品质整装</text>
+<text class="num3">微信获取</text>
+</view>
+<view>
+<text class="num4">透明装修</text>
+<text class="num4">零增加项</text>
+<text class="num4">轻松方便</text>
+</view>
+<view class='line'></view>
+<view class='line1'></view>
+</view>
+
+
+
+
+
+
+

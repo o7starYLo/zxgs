@@ -1,0 +1,17 @@
+<template name="anli">
+<block wx:for="{{array}}" wx:key="array">
+<view class="item" bindtap="seeDetail" id="0">
+<view>
+<image src="{{item.img}}" style="width:75px;height:58px;border-radius:90%"></image>
+</view>
+<view class="desc">
+<view class="title">{{item.title}}</view>
+<view class="count">
+<view>{{item.type}}</view>
+
+</view>
+</view>
+</view>
+<view class="hr2"></view>
+</block>
+</template>

@@ -1,0 +1,35 @@
+.loginTitle{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.select{
+  font-size: 12px;
+  width: 29%;
+  text-align: center;
+  height: 45px;
+  line-height: 45px;
+  border-bottom: 5rpx solid rgb(0, 0, 0);
+}
+.default{
+  font-size: 12px;
+  margin: 0 auto;
+  padding: 15px;
+}
+.hr{
+  border: 1px solid #cccccc;
+  opacity: 0.2;
+}
+
+.vip-img-wrap {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+.wenzi{
+  font-family: STKaiti;
+  font-size: 14px;
+  text-align: center;
+}

@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/baojia/baojia",
+    "pages/tuku/tuku",
+    "pages/me/me"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#36e298",
+    "navigationBarTitleText": "无锡风尚瑞景有限公司",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#36e298",
+    "selectedColor": "#000000",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/image/home-0.jpg",
+        "selectedIconPath": "pages/image/home-1.jpg"
+      },
+      {
+        "pagePath": "pages/baojia/baojia",
+        "text": "报价",
+        "iconPath": "pages/image/baojia-0.jpg",
+        "selectedIconPath": "pages/image/baojia-1.jpg"
+      },
+      {
+        "pagePath": "pages/tuku/tuku",
+        "text": "图库",
+        "iconPath": "pages/image/tuku-0.jpg",
+        "selectedIconPath": "pages/image/tuku-1.jpg"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "pages/image/me-0.jpg",
+        "selectedIconPath": "pages/image/me-1.jpg"
+      }
+    ]
+  }
+}

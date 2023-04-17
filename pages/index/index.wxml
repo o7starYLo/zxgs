@@ -1,0 +1,81 @@
+<view>
+<swiper indicator-dots="true" indicator-color="white" 
+indicator-active-color="green" autoplay="true" interval="3000" duration="2000" 
+ bindchange="mychange">
+<block wx:for="{{imgUrls}}" wx:key="this">
+<swiper-item>
+<image class="img" src="{{item}}"></image>
+</swiper-item>
+</block>
+</swiper>
+</view>
+<view class="nav">
+    <view class="nav-item">
+      <view>
+        <image src="../image/baoji.PNG" style="width:20px;height:20px;"></image>
+      </view>
+      <view>算报价</view>
+    </view>
+    <view class="nav-item">
+      <view>
+        <image src="../image/sheji.PNG" style="width:20px;height:20px;"></image>
+      </view>
+      <view>免费设计</view>
+    </view>
+    <view class="nav-item">
+      <view>
+        <image src="../image/quanwu.PNG" style="width:20px;height:20px;"></image>
+      </view>
+      <view>全屋设计</view>
+    </view>
+    <view class="nav-item">
+      <view>
+        <image src="../image/xiaoguo.PNG" style="width:20px;height:20px;"></image>
+      </view>
+      <view>效果图</view>
+      </view>
+    </view>
+<view class="nav">
+      <view class="nav-item">
+      <view>
+        <image src="../image/gonglv.PNG" style="width:20px;height:20px;"></image>
+      </view>
+      <view>攻略</view>
+    </view>
+     <view class="nav-item">
+      <view>
+        <image src="../image/3d.PNG" style="width:20px;height:20px;"></image>
+      </view>
+      <view>3D漫游</view>
+    </view>
+     <view class="nav-item">
+      <view>
+        <image src="../image/riji.PNG" style="width:20px;height:20px;"></image>
+      </view>
+      <view>日记</view>
+    </view>
+     <view class="nav-item">
+      <view>
+        <image src="../image/remen.PNG" style="width:20px;height:20px;"></image>
+      </view>
+      <view>热门设计</view>
+    </view>
+</view>
+ <view class="hr"></view>
+  <view class="head">
+    <view>经典案例</view>
+    <view class="right"></view>
+  </view>
+   <import src="../template/template.wxml"/>
+  <view class="list">
+  <template is="anli" data="{{array}}" />
+  </view>
+  <view class="hr"></view>
+  <view class="head">
+    <view>设计师</view>
+    <view class="right"></view>
+  </view>
+   <import src="../template1/template.wxml"/>
+  <view class="list">
+  <template is="sheji" data="{{shuju}}" />
+  </view>

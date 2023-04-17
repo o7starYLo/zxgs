@@ -1,0 +1,145 @@
+<view class="content">
+	<view class="loginTitle">
+		<view class="{{currentTab==0?'select':'default'}}" data-current="0" bindtap="switchNav">欧式</view>
+		<view class="{{currentTab==1?'select':'default'}}" data-current="1" bindtap="switchNav">简约</view>
+    <view class="{{currentTab==2?'select':'default'}}" data-current="2" bindtap="switchNav">现代</view>
+    <view class="{{currentTab==3?'select':'default'}}" data-current="3" bindtap="switchNav">中式</view>
+    <view class="{{currentTab==4?'select':'default'}}" data-current="4" bindtap="switchNav">田园</view>
+    <view class="{{currentTab==5?'select':'default'}}" data-current="5" bindtap="switchNav">复古</view>
+	</view>
+	<view class="hr"></view>
+	<swiper current="{{currentTab}}" style="height:{{winHeight}}px">
+		<swiper-item>
+			<view>
+				<view class="vip-img-wrap">
+					<image src="../image/oushi1.jpg" style="width:100%;height:105px"></image>
+					<view class="wenzi">
+						<text>欧式奢华客厅</text>
+					</view>
+					<image src="../image/oushi2.jpg" style="width:100%;height:105px"></image>
+					<view class="wenzi">
+						<text>上世纪经典欧式装修</text>
+					</view>
+					<image src="../image/oushi3.jpg" style="width:100%;height:105px"></image>
+					<view class="wenzi">
+						<text>高端与奢华,低调且大气</text>
+					</view>
+          <image src="../image/oushi4.jpg" style="width:100%;height:105px"></image>
+					<view class="wenzi">
+						<text>高端与奢华,低调且大气</text>
+					</view>
+				</view>
+			</view>
+		</swiper-item>
+		<swiper-item>
+			<view>
+      	<view class="vip-img-wrap">
+					<image src="../image/jianyue1.jpg" style="width:100%;height:105px"></image>
+					<view class="wenzi">
+						<text>简约生活不粗俗</text>
+					</view>
+					<image src="../image/jianyue2.jpg" style="width:100%;height:105px"></image>
+					<view class="wenzi">
+						<text>简约生活求韵致</text>
+					</view>
+					<image src="../image/jianyue3.jpg" style="width:100%;height:105px"></image>
+					<view class="wenzi">
+						<text>简洁婉约，独具格调</text>
+					</view>
+          <image src="../image/jianyue4.jpg" style="width:100%;height:105px"></image>
+					<view class="wenzi">
+						<text>简而不失其华</text>
+					</view>
+				</view>
+			</view>
+		</swiper-item>
+    <swiper-item>
+			<view>
+				<view class="vip-img-wrap">
+					<image src="../image/xiandai1.jpg" style="width:100%;height:105px"></image>
+					<view class="wenzi">
+						<text>宏伟华丽，气势盛大</text>
+					</view>
+					<image src="../image/xiandai2.jpg" style="width:100%;height:105px"></image>
+					<view class="wenzi">
+						<text>窗明几净</text>
+					</view>
+					<image src="../image/xiandai3.jpg" style="width:100%;height:105px"></image>
+					<view class="wenzi">
+						<text>奢华却不庸俗</text>
+					</view>
+          <image src="../image/xiandai4.jpg" style="width:100%;height:105px"></image>
+					<view class="wenzi">
+						<text>古典中透漏张扬,雅致却不失高贵</text>
+					</view>
+				</view>
+			</view>
+		</swiper-item>
+    <swiper-item>
+			<view>
+				<view class="vip-img-wrap">
+					<image src="../image/zhongshi1.jpg" style="width:100%;height:105px"></image>
+					<view class="wenzi">
+						<text>清雅含蓄，端庄丰华</text>
+					</view>
+					<image src="../image/zhongshi2.jpg" style="width:100%;height:105px"></image>
+					<view class="wenzi">
+						<text>错落有致，独具一格</text>
+					</view>
+					<image src="../image/zhongshi3.jpg" style="width:100%;height:105px"></image>
+					<view class="wenzi">
+						<text>别具匠心，别有洞天</text>
+					</view>
+          <image src="../image/zhongshi4.jpg" style="width:100%;height:105px"></image>
+					<view class="wenzi">
+						<text>格调高雅，造型简朴</text>
+					</view>
+				</view>
+			</view>
+		</swiper-item>
+    <swiper-item>
+			<view>
+				<view class="vip-img-wrap">
+					<image src="../image/tianyuan1.jpg" style="width:100%;height:105px"></image>
+					<view class="wenzi">
+						<text>接近自然，诗情画意</text>
+					</view>
+					<image src="../image/tianyuan2.jpg" style="width:100%;height:105px"></image>
+					<view class="wenzi">
+						<text>崇尚自然,结合自然</text>
+					</view>
+					<image src="../image/tianyuan3.jpg" style="width:100%;height:105px"></image>
+					<view class="wenzi">
+						<text>层次分明</text>
+					</view>
+          <image src="../image/tianyuan4.jpg" style="width:100%;height:105px"></image>
+					<view class="wenzi">
+						<text>贴近自然,向往自然</text>
+					</view>
+				</view>
+			</view>
+		</swiper-item>
+    <swiper-item>
+			<view>
+				<view class="vip-img-wrap">
+					<image src="../image/fugu1.jpg" style="width:100%;height:105px"></image>
+					<view class="wenzi">
+						<text>富有历史文化，又有现代文明</text>
+					</view>
+					<image src="../image/fugu2.jpg" style="width:100%;height:105px"></image>
+					<view class="wenzi">
+						<text>高贵、神秘、时尚</text>
+					</view>
+					<image src="../image/fugu3.jpg" style="width:100%;height:105px"></image>
+					<view class="wenzi">
+						<text>厚重的历史感，深层次的体验</text>
+					</view>
+          <image src="../image/fugu4.jpg" style="width:100%;height:105px"></image>
+					<view class="wenzi">
+						<text>简约复古</text>
+					</view>
+				</view>
+			</view>
+		</swiper-item>
+	</swiper>
+</view>
